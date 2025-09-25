@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Tokens warna */
+:root {
+  --color-background: #FFFFFF;
+  --color-foreground: #0A0909;
+  --color-accent: #FAAC05;
+  --font-sans: 'Open Sans', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+}
+
+/* Optional: dark mode pakai preferensi OS */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0d131f;
+    --color-foreground: #fbfaf8;
+    --color-accent: #ffce29;
+    --font-sans: 'Open Sans', sans-serif;
+    --font-heading: 'Poppins', sans-serif;
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
