@@ -171,7 +171,7 @@ export default function Home() {
               </div>
               <h3 className="text-center font-semibold text-[var(--color-background)]">Didik Usahawan</h3>
               <p className="mt-2 text-center text-slate-600 text-sm">
-                Strategi pemasaran, ide produk, dan asas kewangan.
+                Semua Ilmu, maklumat Dan panduan tentangan perniagaan.
               </p>
             </div>
 
@@ -197,7 +197,7 @@ export default function Home() {
               </div>
               <h3 className="text-center font-semibold text-[var(--color-background)]">Pelajaran Agama Islam</h3>
               <p className="mt-2 text-center text-slate-600 text-sm">
-                Panduan solat, doa, dan sirah Nabi.
+                Semua Ilmu Dan maklumat tentang agama islam.
               </p>
             </div>
           </div>
