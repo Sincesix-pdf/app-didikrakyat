@@ -115,7 +115,7 @@ export default function Home() {
               </div>
               <h3 className="text-center font-semibold text-[var(--color-background)]">Tutor & Homework</h3>
               <p className="mt-2 text-center text-slate-600 text-sm">
-                Membantu pelajar memahami subjek dan menyiapkan kerja rumah.
+                Mendidik dan melatih sehingga pelajar memahami subjek dan menyiapkan kerja rumah
               </p>
             </div>
 
