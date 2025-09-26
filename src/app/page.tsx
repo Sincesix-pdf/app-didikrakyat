@@ -6,7 +6,7 @@ export const metadata = {
 };
 
 export default function Home() {
-  
+
   return (
     <div>
       {/* HERO */}
@@ -27,12 +27,12 @@ export default function Home() {
             Didik Rakyat: Satu Aplikasi, Pelbagai Kegunaan
           </h1>
           <p className="mt-4 text-lg">
-            Dari sekolah hingga kehidupan sebenar. Bantu pelajar, suri rumah, dan
-            usahawan untuk belajar dan berkembang.
+            Dari sekolah hingga ke alam dewasa. Membantu pelajar, suri rumah, dan
+            usahawan untuk terus belajar dan maju.
           </p>
           <div className="mt-28 flex flex-col md:flex-row items-center justify-center gap-4">
             <span className="text-s font-sans">
-              Download Didik Rakyat App
+              Muat Turun Aplikasi Didik Rakyat
             </span>
             <div className="flex gap-3">
               <a href="https://www.play.google.com/"
@@ -76,7 +76,7 @@ export default function Home() {
             <div className="p-6 bg-white rounded-xl shadow-md border border-[var(--color-background)]">
               <h3 className="text-lg font-semibold text-[var(--color-background)] mb-3">Untuk Usahawan</h3>
               <p className="text-[var(--color-background)]">
-                Persaingan sengit? Buntu mencari idea promosi untuk tarik lebih ramai pelanggan ke gerai anda?
+                Persaingan sengit? Buntu mencari idea promosi untuk menarik lebih ramai pelanggan ke gerai anda?
               </p>
             </div>
 
@@ -88,16 +88,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-
-          {/* Penyelesaian
-          <div className="mt-16 text-center max-w-3xl mx-auto">
-            <p className="text-lg text-slate-700 leading-relaxed text-justify">
-              <span className="font-semibold text-[var(--color-background)]">
-                Didik Rakyat faham.
-              </span>
-              {" "}Kami menggabungkan kuasa AI dalam satu platform mesra pengguna untuk memberikan anda bantuan segera, idea kreatif, dan panduan praktikal, tidak kira apa pun cabaran anda.
-            </p>
-          </div> */}
         </div>
       </section>
 
@@ -125,7 +115,7 @@ export default function Home() {
               </div>
               <h3 className="text-center font-semibold text-[var(--color-background)]">Tutor & Homework</h3>
               <p className="mt-2 text-center text-slate-600 text-sm">
-                Bantu pelajar memahami materi, dan mengerjakan Homework.
+                Membantu pelajar memahami subjek dan menyiapkan kerja rumah.
               </p>
             </div>
 
@@ -146,7 +136,7 @@ export default function Home() {
 
               <h3 className="text-center font-semibold text-[var(--color-background)]">Bantuan Belajar IPT</h3>
               <p className="mt-2 text-center text-slate-600 text-sm">
-                Rujukan, contoh soal, dan panduan tugas untuk mahasiswa.
+                Rujukan, contoh soalan, dan panduan tugasan untuk pelajar.
               </p>
             </div>
 
@@ -164,7 +154,7 @@ export default function Home() {
               </div>
               <h3 className="text-center font-semibold text-[var(--color-background)]">Pengurusan Rumah Tangga</h3>
               <p className="mt-2 text-center text-slate-600 text-sm">
-                Resipi, jadwal, to-do harian, dan tips hemat.
+                Resipi, jadual, senarai tugas harian, dan tip jimat.
               </p>
             </div>
 
@@ -181,7 +171,7 @@ export default function Home() {
               </div>
               <h3 className="text-center font-semibold text-[var(--color-background)]">Didik Usahawan</h3>
               <p className="mt-2 text-center text-slate-600 text-sm">
-                Strategi pemasaran, ide produk, dan dasar finansial.
+                Strategi pemasaran, ide produk, dan asas kewangan.
               </p>
             </div>
 
@@ -194,7 +184,7 @@ export default function Home() {
               </div>
               <h3 className="text-center font-semibold text-[var(--color-background)]">Panduan Hidup & Kemahiran</h3>
               <p className="mt-2 text-center text-slate-600 text-sm">
-                Etika, komunikasi, produktivitas, kebiasaan baik.
+                Etika, komunikasi, produktiviti, dan amalan baik.
               </p>
             </div>
 
@@ -207,7 +197,7 @@ export default function Home() {
               </div>
               <h3 className="text-center font-semibold text-[var(--color-background)]">Pelajaran Agama Islam</h3>
               <p className="mt-2 text-center text-slate-600 text-sm">
-                Panduan solat, doa, dan sirah.
+                Panduan solat, doa, dan sirah Nabi.
               </p>
             </div>
           </div>
