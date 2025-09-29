@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-[var(--color-background)] shadow-[0_-6px_12px_-2px_rgba(0,0,0,0.2)]">
+    <footer className="shadow-[0_-6px_12px_-2px_rgba(0,0,0,0.2)] bg-[var(--color-background)]">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 py-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
         <p className="text-xs sm:text-sm text-[var(--color-foreground)]">
           © {new Date().getFullYear()} Didik Rakyat. All rights reserved.

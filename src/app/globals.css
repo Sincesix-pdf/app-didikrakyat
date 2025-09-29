@@ -9,6 +9,7 @@
   --font-heading: 'Poppins', sans-serif;
 }
 
+
 html, body { 
   background: var(--color-background);
   color: var(--color-foreground);
