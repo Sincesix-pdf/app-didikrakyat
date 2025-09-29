@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+// src/app/about/page.tsx (About) — betulkan warna agar konsisten token
 export const metadata = {
   title: "Tentang Kami",
   description: "Kisah di sebalik Didik Rakyat, misi, visi, dan nilai yang memperkasakan rakyat Malaysia.",
@@ -8,7 +7,6 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <main className="bg-[var(--color-background)] text-[var(--color-foreground)]">
-
       {/* 1. HERO */}
       <section className="relative h-[60vh] sm:h-[50vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-[var(--color-background)]/95" />
@@ -26,22 +24,22 @@ export default function AboutPage() {
 
       {/* 2. KISAH KAMI */}
       <section className="py-20 relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-background)]/80 to-black/80 pointer-events-none"></div>
-        <div className="relative mx-auto max-w-4xl px-4 space-y-6">
+        <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-background)]/80 to-black/80 pointer-events-none" />
+        <div className="relative mx-auto max-w-4xl px-4 space-y-6 text-center text-white">
           <h2 className="font-heading text-2xl font-semibold text-center">
             Kisah Kami: Dari Persoalan, Lahirlah Penyelesaian
           </h2>
-          <p className="text-white">
+          <p>
             Semuanya bermula apabila kami melihat seorang mahasiswa berhempas pulas
             memahami jurnal yang sukar. Kami melihat seorang usahawan gerai burger
             kreatif tetapi buntu mencari jalan untuk bersaing. Kami melihat ibu bapa yang mahu
             memberikan yang terbaik untuk keluarga, tetapi terikat dengan masa dan kekangan idea.
           </p>
-          <p className="text-white">
+          <p>
             Lalu timbul persoalan: bagaimana jika wujud satu alat yang boleh
             menjadi tutor peribadi, penasihat bisnes, dan pembantu harian dalam satu masa?
           </p>
-          <p className="text-white">
+          <p>
             Dari situlah Didik Rakyat dilahirkan. Sebuah platform yang
             direka oleh rakyat Malaysia, untuk rakyat Malaysia.
           </p>
@@ -53,7 +51,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-5xl px-4 grid gap-8 md:grid-cols-2">
           <div className="p-6 bg-white rounded-xl shadow-md">
             <h3 className="font-heading text-black text-xl font-semibold mb-2">Misi Kami</h3>
-            <p className="text-[var(--color-background)]">
+            <p className="text-[var(--color-foreground)]">
               Memperkasakan setiap individu di Malaysia dengan menyediakan
               akses segera kepada maklumat relevan, panduan praktikal,
               dan inspirasi harian melalui teknologi AI.
@@ -61,7 +59,7 @@ export default function AboutPage() {
           </div>
           <div className="p-6 bg-white rounded-xl shadow-md">
             <h3 className="font-heading text-black text-xl font-semibold mb-2">Visi Kami</h3>
-            <p className="text-[var(--color-background)]">
+            <p className="text-[var(--color-foreground)]">
               Melihat sebuah Malaysia di mana setiap insan mempunyai peluang
               yang sama untuk belajar, berkembang, dan mencapai potensi penuh mereka.
             </p>
@@ -79,30 +77,22 @@ export default function AboutPage() {
             <div>
               <div className="mb-4 text-4xl mx-auto">💡</div>
               <h3 className="text-white font-semibold text-lg">Pemberdayaan</h3>
-              <p className="text-white/90 text-sm">
-                Setiap soalan berhak mendapat jawapan yang berkualiti.
-              </p>
+              <p className="text-white/90 text-sm">Setiap soalan berhak mendapat jawapan yang berkualiti.</p>
             </div>
             <div>
               <div className="mb-4 text-4xl mx-auto">🚀</div>
               <h3 className="text-white font-semibold text-lg">Inovasi</h3>
-              <p className="text-white/90 text-sm">
-                Sentiasa mencari cara baharu untuk menjadikan teknologi bermanfaat.
-              </p>
+              <p className="text-white/90 text-sm">Sentiasa mencari cara baharu untuk menjadikan teknologi bermanfaat.</p>
             </div>
             <div>
               <div className="mb-4 text-4xl mx-auto">🤝</div>
               <h3 className="text-white font-semibold text-lg">Integriti</h3>
-              <p className="text-white/90 text-sm">
-                Komited pada maklumat yang sahih dan selamat.
-              </p>
+              <p className="text-white/90 text-sm">Komited pada maklumat yang sahih dan selamat.</p>
             </div>
             <div>
               <div className="mb-4 text-4xl mx-auto">🌍</div>
               <h3 className="text-white font-semibold text-lg">Komuniti</h3>
-              <p className="text-white/90 text-sm">
-                Dibina untuk anda, bersama anda.
-              </p>
+              <p className="text-white/90 text-sm">Dibina untuk anda, bersama anda.</p>
             </div>
           </div>
         </div>
@@ -111,7 +101,7 @@ export default function AboutPage() {
       {/* 5. CTA TERAKHIR */}
       <section className="py-20 text-center">
         <h2 className="font-heading text-2xl font-bold mb-6">Sertai Misi Kami</h2>
-        <p className="text-white max-w-2xl mx-auto mb-8">
+        <p className="max-w-2xl mx-auto mb-8">
           Anda bukan sekadar memuat turun aplikasi; anda menyertai sebuah gerakan
           untuk menjadikan ilmu lebih mudah dicapai oleh semua.
         </p>
