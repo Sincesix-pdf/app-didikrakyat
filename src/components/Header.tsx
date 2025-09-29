@@ -17,7 +17,7 @@ export default function Header() {
 
     return (
         <>
-            <header className="sticky top-0 z-50 bg-[var(--color-accent)]/90 backdrop-blur supports-[backdrop-filter]:bg-[var(--color-accent)]/75">
+            <header className="sticky top-0 z-50 bg-[var(--color-accent)]">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
