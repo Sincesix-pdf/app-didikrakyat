@@ -1,22 +1,15 @@
 @import "tailwindcss";
 
-/* 2) Tokens */
-:root{
-  --color-background:#FFFFFF;
-  --color-foreground:#0A0909;
-  --color-accent:#FAAC05;
-  --font-sans:'Open Sans',sans-serif;
-  --font-heading:'Poppins',sans-serif;
+/* Tokens warna */
+:root {
+  --color-background: #FFFFFF;
+  --color-foreground: #0d131f;
+  --color-accent: #FAAC05;
+  --font-sans: 'Open Sans', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
 }
 
-/* 3) Fallback global (fixed -> var) */
-html,body{
-  background:#FFFFFF;                 /* fallback */
-  background:var(--color-background); /* prefer var */
-  color:#0A0909;                      /* fallback */
-  color:var(--color-foreground);      /* prefer var */
-  font-family:var(--font-sans);
-}
+
 
 h1,h2,h3,h4,h5,h6 { font-family: var(--font-heading); }
 .font-heading { font-family: var(--font-heading); }

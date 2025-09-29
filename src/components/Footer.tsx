@@ -1,12 +1,12 @@
 export default function Footer() {
   return (
-    <footer className="shadow-[0_-6px_12px_-2px_rgba(0,0,0,0.2)] bg-[var(--color-background)]">
+    <footer className="shadow-[0_-6px_12px_-2px_rgba(0,0,0,0.2)] bg-[var(--color-foreground)]">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 py-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-        <p className="text-xs sm:text-sm text-[var(--color-foreground)]">
+        <p className="text-xs sm:text-sm text-[var(--color-background)]">
           © {new Date().getFullYear()} Didik Rakyat. All rights reserved.
         </p>
 
-        <div className="flex flex-wrap justify-center gap-2 sm:gap-3 text-[var(--color-foreground)]">
+        <div className="flex flex-wrap justify-center gap-2 sm:gap-3 text-[var(--color-background)]">
           <a href="https://facebook.com" aria-label="Facebook" className="p-2 rounded-full hover:text-[var(--color-accent)] hover:bg-black/5">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 sm:h-6 sm:w-6">
               <path d="M.5 12.5v-11a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1h-3V8.76h.71a.61.61 0 0 0 .61-.61v-.77a.611.611 0 0 0-.61-.61h-.67v-.94c0-.84.38-.84.76-.84h.49a.55.55 0 0 0 .43-.18a.58.58 0 0 0 .18-.43v-.74a.618.618 0 0 0-.6-.64H9.65a2.32 2.32 0 0 0-2.39 2.6v1.17h-.64a.61.61 0 0 0-.62.61v.77a.61.61 0 0 0 .62.61h.64v4.74H1.5a1 1 0 0 1-1-1" />
