@@ -30,6 +30,28 @@ export default function Home() {
             Dari sekolah hingga ke alam dewasa. Membantu pelajar, suri rumah, dan
             usahawan untuk terus belajar dan maju.
           </p>
+          {/* button tonton video */}
+          <div className="col-span-1 md:col-span-3 mt-6 text-center">
+            <div className="flex justify-center space-x-4">
+              <a
+                href="https://youtu.be/PCWWXZGIUj8?si=t7vwwLhZ1iT4eFd5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-4 py-2 bg-[var(--color-foreground)] text-[var(--color-background)] rounded-md font-medium hover:underline"
+              >
+                Tonton Video
+              </a>
+              <a
+                href="https://youtu.be/4-wi4I3Powg?si=k6aB4t-OltRH_ymB"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-4 py-2 bg-[var(--color-foreground)] text-[var(--color-background)] rounded-md font-medium hover:underline"
+              >
+                Tonton Video
+              </a>
+            </div>
+          </div>
+
           <div className="mt-28 flex flex-col md:flex-row items-center justify-center gap-4">
             <span className="text-s font-sans">
               Muat Turun Aplikasi Didik Rakyat
@@ -87,6 +109,18 @@ export default function Home() {
                 Pening kepala fikirkan menu makan malam untuk seminggu? Perlukan aktiviti menarik untuk anak-anak pada hujung minggu?
               </p>
             </div>
+
+            {/* button tonton video */}
+            <div className="col-span-1 md:col-span-3 mt-6 text-center">
+              <a
+                href="https://youtu.be/IfSLDpPKeHY?si=UnFH7jbgvQXc-Krh"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-4 py-2 bg-[var(--color-foreground)] text-[var(--color-background)] rounded-md font-medium hover:underline"
+              >
+                Tonton Video
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -117,6 +151,17 @@ export default function Home() {
               <p className="mt-2 text-center text-slate-600 text-sm">
                 Mendidik dan melatih sehingga pelajar memahami subjek dan menyiapkan kerja rumah
               </p>
+              {/* button tonton video */}
+              <div className="col-span-1 md:col-span-3 mt-6 text-center">
+                <a
+                  href="https://youtu.be/IfSLDpPKeHY?si=zCKkhA2MMsCnynke"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 bg-[var(--color-foreground)] text-[var(--color-background)] rounded-md font-medium hover:underline"
+                >
+                  Tonton Video
+                </a>
+              </div>
             </div>
 
             {/* 2. IPT */}
@@ -156,6 +201,17 @@ export default function Home() {
               <p className="mt-2 text-center text-slate-600 text-sm">
                 Resipi, jadual, senarai tugas harian, dan tip jimat.
               </p>
+              {/* button tonton video */}
+              <div className="col-span-1 md:col-span-3 mt-6 text-center">
+                <a
+                  href="https://youtu.be/TT4RSiyBYXs?si=ezVrqbIxLd0Np59h"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 bg-[var(--color-foreground)] text-[var(--color-background)] rounded-md font-medium hover:underline"
+                >
+                  Tonton Video
+                </a>
+              </div>
             </div>
 
             {/* 4. Usahawan */}
@@ -186,6 +242,17 @@ export default function Home() {
               <p className="mt-2 text-center text-slate-600 text-sm">
                 Etika, komunikasi, produktiviti, dan amalan baik.
               </p>
+              {/* button tonton video */}
+              <div className="col-span-1 md:col-span-3 mt-6 text-center">
+                <a
+                  href="https://youtu.be/DEETeSVOyFM?si=dPWmDAO7XHAZPCZD"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 bg-[var(--color-foreground)] text-[var(--color-background)] rounded-md font-medium hover:underline"
+                >
+                  Tonton Video
+                </a>
+              </div>
             </div>
 
             {/* 6. Kerohanian */}

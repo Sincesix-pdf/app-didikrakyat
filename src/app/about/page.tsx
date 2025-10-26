@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Tentang Kami",
+  title: "About Us",
   description: "Kisah di sebalik Didik Rakyat, misi, visi, dan nilai yang memperkasakan rakyat Malaysia.",
 };
 
